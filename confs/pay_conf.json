@@ -1,0 +1,94 @@
+{
+  "SUN": {
+    "private_key": "-----BEGIN RSA PRIVATE KEY-----\nMIICWwIBAAKBgQC85TDB8utIOHAzZfilHYiWW5EYVd7MF+bt9SiKF/krD115LKaZjfR5xmyr4rQNOCoEUlm+CO4wwiZtdY15AgqCKvmQmEWKejexfRoEQ7+cb4VzsMCFZclEGiUTT9HwMYt6pfitu81/RxekSLFPntxNUSu5qKXqcuZABdJljd05rQIDAQABAoGAajJ8N/4HUyIPyoXAxauV99pg94qHaLzjYtLayNBzkEbiKVb2Dwxk7vWkcPpSecAity1JMPK6XwU4L3/QWsDQAKjJxJClLb4yeT5+jmih52+Wy5CdLrTYgk/4VfGA5gg3aIp9IIi9ldPpADIw1ZG2MrmSduTiMDPDFkcG2LuPVI0CQQDptjY/wovJSY8Q0V4v1byDlu1Dh3JQldNVyVkPe9wBAYUCuAHW0YVZGtz2rW7imSgFARUQaWi926jtLxhF9r37AkEAzujWqfVO3J4uMzpdQRScjNUfPuGhpGe68NlVpSAaVnqgfYi6sdbLH9HheK5CT0b1BjShhzaO/f5eTWLuGp6edwJAftxPejCqHCr3o5NiYujMGUm1pLBDFwcc3jYbR9Jdy5X9k0o6hVbZ4VI5mxTtWcb0+DJsMqplFpnDimvD60ZSPQJAdJirFx1gclxFBqM2F82IpqgWsnWthBrcMosWgzXDAcaamAMrybmTv3ujRkFUpp4Cx5tzBuIM1D66X3uHV8LY4wJAJWGGEm97Vy9uPr07kPg3lDR3waLMUFKgCCxRT0qjiR8JwZbRoqtEEJ8hyCt9+mgTShyYbFqNfMkDzBT77ggRpg==\n-----END RSA PRIVATE KEY-----",
+    "public_key": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC85TDB8utIOHAzZfilHYiWW5EYVd7MF+bt9SiKF/krD115LKaZjfR5xmyr4rQNOCoEUlm+CO4wwiZtdY15AgqCKvmQmEWKejexfRoEQ7+cb4VzsMCFZclEGiUTT9HwMYt6pfitu81/RxekSLFPntxNUSu5qKXqcuZABdJljd05rQIDAQAB\n-----END PUBLIC KEY-----",
+    "mch_no": "10037484",
+    "default_pay_type": "MWEB",
+    "prepay_url": "http://p.czsnb.com/Pay.do",
+    "query_url": "http://p.czsnb.com/public/Query.do",
+    "debug_url": "http://p.czsnb.com/public/Sign.do",
+    "pay_type": {
+      "W.app": "APP",
+      "A.wap": "ALIWAP",
+      "A.swp": "ALIQRCODE",
+      "W.pub": "JSAPI",
+      "W.swp": "NATIVE",
+      "W.wap": "MWEB"
+    }
+  },
+  "WQB": {
+    "prepay_url": "http://pay.ido007.cn",
+    "mch_no": "1246",
+    "key": "7e857afe3ffa8041d51b65c8b09a05fe"
+  },
+  "FF": {
+    "key": "B1FA0F0CBD89359C",
+    "mch_no": "50000079"
+  },
+  "ST": {
+    "key": "",
+    "mch_no": "",
+    "prepay_url": "http://pay.888pai.net/preorder.php",
+    "pay_type": {
+      "W.app": "weixin.apppay",
+      "W.pub": "weixin.mppay",
+      "W.swp": "weixin.scanpay",
+      "W.wap": "weixin.wappay",
+      "A.wap": "ali.wappay",
+      "A.app": "ali.apppay",
+      "A.swp": "ali.scanpay"
+    }
+  },
+  "FW": {
+    "private_key": "-----BEGIN RSA PRIVATE KEY-----\nMIICXQIBAAKBgQDj5WbcgAYHTOpWLgIki6vdCfKB52cnevHt8K/KS+ebG5ILMZT30IbBzePaBp2Lp8nafPuDiB7SHtAi676Wkd07bCdd1kZSHYIDyF1e/QOB1LMS6LDwAAaPHuq/+SNByV/6zb1Zay6Bm3lSyEKApUtWLTApU9rCSH8J/62Rft5fUQIDAQABAoGAe7++yi9OlrpCaUeUbEnXqjBTmgyQrBSLuHvAySXMfyJKfH+Q97wo4KYvet2qwQH8jwLdBIBu1ARdWwkONe7A5RQWqsTKol9EGYnURx4GwjiuP1UD9vgFKElOYOt3OJCksJQaG+3UegIWUVTOj/7UO4nHcCGcOV5ByrTeJN1+sx0CQQD45QYvZa8YEZkwC+VKA6jRPNBlUwWndv0eV1XVkis4yvSK+IT4zRuxikCQkh04fsPadA/rW7PhGeXlPMEe8OgTAkEA6mbqdqmu9Momt2G4ENzmNBhCrT0n292KOtM8JNig73UKOduyvrsW7HEt8reZCyapfJK42tYttt6G2HnhPxPPiwJBAK6HyuKJp1J1ZLowXUSddE/lGS00Ho7j/XK9Q09UBEL67qhUxMnC6lyA2e2GyD7JhYU2RcOAto5unqs1AyczP0kCQQCpT5FICSTQuDvi9fioZYb6VhPDYosp6wnvl6i3zKnijR3H0QN5dVYHj3DrAubPASwnSSuxFkeK8Y1hTBgBIeQlAkAmfiksV1Nlxla6wIINKd/hhd8zDoc9JoTcFHVivA1GhqI4RdgPjE3YjtXsc8M2uKsLEDMPabCZfxyd/Jn2ZgTA\n-----END RSA PRIVATE KEY-----",
+    "public_key": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk5V5YMRar1+LuWkW9SvRA6zAkhCzmUFv3750TjgFRWHI3kfCjd1smdZWtJpAoqLICqNU4Rqc7hMxMkMOY8hHX6wuUQwBwWXWREdm5lyBRpi8teQTG05GsJ60d3W3Nn5arsShaqvpX3bsSZHbCv1k9N6PRkj2arrhSzEBJdPjsVQIDAQAB\n-----END PUBLIC KEY-----",
+    "mch_no": "71989964",
+    "key": "e1d71748064e44468ea7befee4467dde",
+    "prepay_url": "https://mapi.jubaopay.com/apipay.htm",
+    "default_pay_type": "ALL",
+    "pay_type": {
+      "A.ext": "alipay",
+      "W.ext": "wxpay",
+      "T.ext": "tanpay",
+      "T.bag": "qqpay"
+    }
+  },
+  "ZY": {
+    "mch_no": "pay105",
+    "default_pay_type": "4",
+    "pay_type": {
+      "W.app": 1,
+      "W.swp": 2,
+      "W.pub": 3,
+      "W.pub_swp": 4,
+      "A.app": 5,
+      "A.swp": 6
+    }
+  },
+  "YC": {
+    "mch_no": "20022",
+    "key": "CZqMJ3ktaDMB5tYnxdYLUey3JHXkHlHR",
+    "prepay_url": "http://p.stycasdf.com/preorder.php",
+    "pay_type": {
+      "W.wap": "weixin.wappay",
+      "W.app": "weixin.apppay",
+      "W.pub": "weixin.mppay"
+    },
+    "default_pay_type": "weixin.apppay"
+  },
+  "WY": {
+    "remote_ip": "120.77.8.56"
+  },
+  "ZZ": {
+  },
+  "BA": {
+    "key": "AC5E648AEB74D34",
+    "verify_sign": true
+  },
+  "MG": {
+    "key": "",
+    "verify_sign": false
+  },
+  "DYL": {
+  }
+}

@@ -1,0 +1,36 @@
+#!/bin/sh
+
+BASE_PATH=$(cd `dirname $0`; pwd)
+
+exe_cmd(){
+  $cmd
+  if [ $? -eq 0 ]
+  then
+    echo "run cmd [$cmd] done."
+  else
+    echo "run cmd [$cmd] failed."
+    exit 0
+  fi
+}
+
+cmd="sudo apt-get install -y python-virtualenv"
+#exe_cmd
+
+mkdir logs
+mkdir logs/data
+mkdir logs/pids
+
+rm -rf venv
+
+cmd="virtualenv venv"
+exe_cmd
+
+unlink pip
+cmd="ln -s venv/bin/pip2 pip"
+exe_cmd
+
+unlink python
+cmd="ln -s venv/bin/python2 python"
+exe_cmd
+
+cmd="git clone git@192.168.0.253:licheng/chat-server-libs.git libs"

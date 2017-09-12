@@ -1,0 +1,23 @@
+# 融梦订单查询
+curl -X POST 'localhost:5004/mimi2/rmuif?uuid=666'
+
+# 融梦支付结果查询
+curl -X POST 'localhost:5004/mimi2/rmpayst?uuid=666&channelOrderId=cnmVfDwiwKxWlQbfcgoDaVlfyXbIC3'
+
+# 融梦回调接口查询
+curl "localhost:5004/mimi2/rmcb?totalFee=100&return_code=0&channelOrderId=cnmVfDwiwKxWlQbfcgoDaVlfyXbICy&orderId=100028201612133542900221&timeStamp=20161213183552&attach=1745627@231@7@1@1.0@debug@1&transactionId=4002802001201612132689770801&sign=3ca50782efb02aaddcc92083bf94cac9"
+
+# 中至支付回调接口
+curl "localhost:5007/mimi2/cb/ZZ?app_id=1001&callback_args=20160101000001&code_money=2000&op_type=1&order_date=2016-12-07&order_id=1050587658&order_time=1481077428&point_id=20152&province_id=19&province_name=%E9%BB%91%E9%BE%99%E6%B1%9F&trade_id=105058765801&unique_order_id=2016120710234889682&user_id=50021"
+
+# 微云支付回调接口
+curl "localhost:5007/mimi2/cb/WY?channel=FYYSYH007&imsi=460110726336739&imei=355905073565534&mobile=18901701718&price=2000&orderId=905238257211&orderTime=017-07-05%2023:11:50&feeResult=0&app_code=20949803"
+
+# 北爱支付回调接口
+curl "localhost:5007/mimi2/cb/BA?OutTradeNo=1499392153380&OrderTime=20170707094521&OrderId=2E02E740119A7521&Status=1&Fee=6&CpParam=vip&Sign=25aa15d740b102ca29cf7c19d1ddf3c1&ChannelId=130060&CarrierType=0&AppId=521&Version=1.7.4&SubIndex=1&Province=%e9%87%8d%e5%ba%86"
+
+# 麦广支付回调接口
+curl -X POST "localhost:5007/mimi2/cb/MG" -d '{"Status":1,"Ext":"1000","OID":"1499415171651","GoodsID":"zms3n2ox93cD8nhyndr4DDy5","ChannelID":"FYJNBTH003","Provider":"1","Province":"4","IP":"36.57.105.65","TransactionID":"9apvDqjBnBiro7l6hh7fB8tB","TransactionTime":"1499415172","SubTransactionID":"rkj9d2zq64e1qm22BDvr68wg","TotalMoney":"1000","ValidMoney":"100","MoMoney":"100","sign":"a0c0ca7b40d895616dda3adad193caaf"}'
+
+# 多益乐支付回调接口
+curl "http://localhost:5007/mimi2/cb/DYL?chargePoint=315&orderId=0120160919102638006&price=100&provice=610000&appId=60&channelId=KPXH422917&operator=YD&imsi=11111&cpparam=111"
